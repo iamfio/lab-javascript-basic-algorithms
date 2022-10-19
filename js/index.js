@@ -55,7 +55,6 @@ function isPalindrome(text) {
       .match(/[a-zA-Z]/g)
       .join("")
       .toLowerCase()
-      .toLowerCase()
       .split("")
       .reverse()
       .join("")
